@@ -1,0 +1,144 @@
+.red {
+	background-color: red;
+}
+.sBlue {
+	background-color: dodgerblue;
+}
+div.form-group {
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	background-color: white;
+}
+.pill {
+	border-radius: 35px;
+}
+.fullHeight {
+	height: 100vh;
+}
+div.fullHeight {
+	margin: 0;
+}
+input:focus {
+	outline: none;
+}
+@media (min-width: 1200px) {
+	.font-5 {
+		font-size: 4rem !important;
+	}
+	.font-4 {
+		font-size: 3.5rem !important;
+	}
+	.font-3 {
+		font-size: 3rem !important;
+	}
+	.font-2 {
+		font-size: 2.5rem !important;
+	}
+	.font-1 {
+		font-size: 2rem !important;
+	}
+}
+@media (min-width: 992px) {
+	.font-5 {
+		font-size: 3.5rem !important;
+	}
+	.font-4 {
+		font-size: 3rem !important;
+	}
+	.font-3 {
+		font-size: 2.5rem !important;
+	}
+	.font-2 {
+		font-size: 2rem !important;
+	}
+	.font-1 {
+		font-size: 1.5rem !important;
+	}
+}
+@media (min-width: 768px) {
+	.font-5 {
+		font-size: 3rem !important;
+	}
+	.font-4 {
+		font-size: 2.5rem !important;
+	}
+	.font-3 {
+		font-size: 2rem !important;
+	}
+	.font-2 {
+		font-size: 1.5rem !important;
+	}
+	.font-1 {
+		font-size: 1rem !important;
+	}
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	.font-5 {
+		font-size: 2.5rem !important;
+	}
+	.font-4 {
+		font-size: 2rem !important;
+	}
+	.font-3 {
+		font-size: 1.5rem !important;
+	}
+	.font-2 {
+		font-size: 1rem !important;
+	}
+	.font-1 {
+		font-size: 0.8rem !important;
+	}
+}
+@media only screen and (min-width: 360px) and (max-width: 575px) {
+	.font-5 {
+		font-size: 2rem !important;
+	}
+	.font-4 {
+		font-size: 1.5rem !important;
+	}
+	.font-3 {
+		font-size: 1rem !important;
+	}
+	.font-2 {
+		font-size: 0.8rem !important;
+	}
+	.font-1 {
+		font-size: 0.7rem !important;
+	}
+}
+@media only screen and (min-width: 240px) and (max-width: 359) {
+	.font-5 {
+		font-size: 1.5rem !important;
+	}
+	.font-4 {
+		font-size: 1rem !important;
+	}
+	.font-3 {
+		font-size: 0.8rem !important;
+	}
+	.font-2 {
+		font-size: 0.7rem !important;
+	}
+	.font-1 {
+		font-size: 0.6rem !important;
+	}
+}
+.gutter-0 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.gutter-10 {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+.gutter-20 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.gutter-30 {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+} 
+.gutter-40 {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}  

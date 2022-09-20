@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="./css/extra-responsive.css">
+		<link rel="stylesheet" type="text/css" href="./css/calculatorCSS.css">
+	<title>Simple Calculator</title>
+	</head>
+	<body>
+		<div class="row container-fluid fullHeight align-items-center ">
+			<div class="p-0 row container mx-auto h-75 col-12 mb-5 col-sm-8 col-md-8 col-lg-9">
+				<div class="entireCalc flex-column col-10 col-sm-9 col-md-7 col-lg-4 mx-auto rounding">
+				<div class="row flex-column displaySection rounding-top">
+					<div id="operation" class="mt-2 text-center"></div>
+					<button id="clear" class="btn ml-auto justify-content-end py-0 px-1 align-items-end rounded-0">Clear</button>
+					<div id="displaySpan" class="text-center orange"></div>
+				</div>
+				<div class="inputsDiv row justify-content-between font-3 bg-ash rounding-bottom">
+					<div class="row leftInputs flex-column mx-auto w-25">
+						<input type="hidden" id="charDisplay" value="" autocomplete="off" >
+						<input type="submit" onclick="displayChar(this.value)" value="7" id="sev" class="leftval px-2h">
+						<input type="submit" onclick="displayChar(this.value)" value="4" id="for" class="leftval px-2h">
+						<input type="submit" onclick="displayChar(this.value)" value="1" id="one" class="leftval px-2h">
+						<input type="submit" onclick="displayChar(this.value)" value="." id="dot" class="leftval px-2h">
+					</div>
+					<div class="midInputs row flex-column mx-auto w-25">
+						<input type="submit" onclick="displayChar(this.value)" value="8" id="eit" class="midval px-2h">
+						<input type="submit" onclick="displayChar(this.value)" value="5" id="fiv" class="midval px-2h">
+						<input type="submit" onclick="displayChar(this.value)" value="2" id="two" class="midval px-2h">
+						<input type="submit" onclick="displayChar(this.value)" value="0" id="zeo" class="midval px-2h">
+					</div>
+					<div class="rightInputs row flex-column mx-auto w-25">
+						<input type="submit" onclick="displayChar(this.value)" value="9" id="nie" class="endval px-2h">
+						<input type="submit" onclick="displayChar(this.value)" value="6" id="six" class="endval px-2h">
+						<input type="submit" onclick="displayChar(this.value)" value="3" id="tre" class="endval px-2h">
+						<input type="submit" onclick="eql()" value="=" id="eql" class="endval px-2h">
+					</div>
+					<div class="operatorsDiv row flex-column mx-auto bg-dark-ash w-25 rounding-br">
+						<input type="submit" onclick="del()"  value="&#8592" id="del" class="oper px-2h " >
+						<input type="submit" onclick="displayChar(this.value)" value="/" id="divide" class="oper px-2h">
+						<input type="submit" onclick="displayChar(this.value)" value="x" id="times" class="oper px-2h">
+						<input type="submit" onclick="displayChar(this.value)" value="-" id="subt" class="oper px-2h ">
+						<input type="submit" onclick="displayChar(this.value)" value="+" id="add" class="oper px-2h">
+						<input type="submit" onclick="approx(this.value)" value="&#8776" id="approx" class="oper px-2h rounding-br" >
+					</div>
+				</div>	
+			</div>
+			</div>
+		</div>
+		<script src="./js/calculatorjs.js"></script>
+	</body>
+</html>
